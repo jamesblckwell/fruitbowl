@@ -1,0 +1,42 @@
+{
+    "name": "framework",
+    "description": "My sveltekit/firebase framework",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "setup": "echo \"Setting up Svelte app...\" && bun install",
+        "update": "echo \"Upgrading Svelte app...\" && bun update",
+        "prebuild": "echo \"Linting App...\" && eslint .",
+        "build": "echo \"Building Svelte app...\" && bun vite build",
+        "serve": "echo \"Starting Svelte app...\" && vite dev --port 3000 --open --host",
+        "deploy": "echo \"Deploying Svelte app...\" && bun run build:app && firebase deploy --only hosting"
+    },
+    "devDependencies": {
+        "@iconify/json": "^2.2.247",
+        "@sveltejs/adapter-auto": "^3.2.4",
+        "@sveltejs/kit": "^2.5.26",
+        "@sveltejs/vite-plugin-svelte": "^4.0.0-next.6",
+        "@types/eslint": "^9.6.1",
+        "autoprefixer": "^10.4.20",
+        "eslint": "^9.10.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-svelte": "^2.43.0",
+        "globals": "^15.9.0",
+        "open-cli": "^8.0.0",
+        "postcss": "^8.4.45",
+        "prettier": "^3.3.3",
+        "prettier-plugin-svelte": "^3.2.6",
+        "svelte": "^5.0.0-next.244",
+        "svelte-adapter-bun": "^0.5.2",
+        "svelte-check": "^3.8.6",
+        "tailwindcss": "^3.4.11",
+        "typescript": "^5.6.2",
+        "typescript-eslint": "^8.5.0",
+        "unplugin-icons": "^0.19.3",
+        "vite": "^5.4.4"
+    },
+    "type": "module",
+    "trustedDependencies": [
+        "svelte-preprocess"
+    ]
+}
