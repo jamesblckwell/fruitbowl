@@ -1,8 +1,11 @@
 <script lang="ts">
+	import Header from '$components/Header.svelte';
+	import Footer from '$components/Footer.svelte';
 	import '../app.css';
-	// import type { LayoutData } from './$types';
-
-	// export let data: LayoutData;
 </script>
 
-<slot />
+<Header />
+<main>
+	<slot />
+</main>
+<Footer />

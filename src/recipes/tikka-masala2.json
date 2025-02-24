@@ -1,0 +1,30 @@
+{
+    "title": "Tikka Masala2",
+    "category": ["curry", "chinese"],
+    "tags": ["cheap"],
+    "description": "We love a good homemade curry.. especially when it’s cheap.",
+    "date": "2024-09-25",
+    "serves": 4,
+    "ingredientSections": ["Main", "Marinade"],
+    "ingredients": [
+        {
+            "section": "main",
+            "name": "Chicken Fillets",
+            "amount": "600g"
+        },
+        {
+            "section": "marinade",
+            "name": "Chicken Fillets",
+            "amount": "600g"
+        }
+    ],
+    "steps": [
+        "Mix marinade ingredients together and leave to marinade for at least 1 hour – overnight. 6 hours done in V2",
+        "Cook chicken – on high heat, heat 2 tbsp oil and add chicken once oil is hot. Minimal stirring – every couple minutes. You want the chicken to char. 10 mins and set aside.",
+        "To the same pot, add 2 tbsp oil and 1 tbsp butter, Melt until foamy. Add 3 medium finely diced onions and cook until softened, 5-10 mins.",
+        "Add 5 minced garlic cloves and 1 tbsp ground ginger. Cook for 2 minutes.",
+        "Add spices (1 tsp chilli, 1.5tsp turmeric, 2 tsp cumin, 1 tsp coriander, 1 tsp garam masala, 2 tsp salt) and 3 tbsp tomato puree. Mix until all onions are well covered and cook for 2 minutes. ",
+        "Add in 3 medium sized fresh chopped tomatoes and 400g peeled canned tomatoes. Break them down with the spatula and cook, covered for 10-15 minutes, until the colour turns deep.",
+        "Add 300ml double cream, 2 tsp brown sugar, large pinch of salt, and the chicken pieces. Cook uncovered on medium high heat for 15-20 mins. Add splash of milk halfway. Serve."
+    ]
+}
